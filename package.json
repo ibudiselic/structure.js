@@ -1,0 +1,41 @@
+{
+  "name": "structure.js",
+  "preferGlobal": "false",
+  "version": "0.0.1",
+  "author": "Ivan Budiselic <ibudiselic@gmail.com> (https://github.com/ibudiselic)",
+  "description": "JavaScript library of useful data structures",
+  "bugs" : "https://github.com/ibudiselic/structure.js/issues",
+  "homepage" : "https://github.com/ibudiselic/structure.js",
+  "scripts": {
+    "test": "jasmine-node test",
+    "build": "grunt"
+  },
+  "main": "/lib/structure.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ibudiselic/structure.js.git"
+  },
+  "contributors": [
+    "Ivan Zuzak <izuzak@gmail.com> (http://ivanzuzak.info)"
+  ],
+  "keywords": [
+    "data structure",
+    "hash table"
+  ],
+  "dependencies" : {},
+  "devDependencies": {
+    "jasmine-node" :  ">=1.0.23",
+    "grunt" : ">=0.3.18a",
+    "grunt-jasmine-node" : ">=0.0.2"
+  },
+  "bundleDependencies": [],
+  "licenses": [
+    {
+      "type" : "Apache-2.0",
+      "url" : "https://raw.github.com/ibudiselic/structure.js/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node" : ">=0.6.10"
+  }
+}
