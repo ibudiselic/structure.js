@@ -1,6 +1,6 @@
 {
   "name": "structure.js",
-  "preferGlobal": "false",
+  "preferGlobal": false,
   "version": "0.0.1",
   "author": "Ivan Budiselic <ibudiselic@gmail.com> (https://github.com/ibudiselic)",
   "description": "JavaScript library of useful data structures",
