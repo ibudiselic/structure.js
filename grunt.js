@@ -3,8 +3,19 @@ module.exports = function(grunt) {
   grunt.initConfig({
     concat: {
       dist: {
-        src: ['src/header.js', 'src/exports.js', 'src/init.js', 'src/hashtable.js', 'src/footer.js'],
+        src: ['src/header.js',
+              'src/exports.js',
+              'src/init.js',
+              'src/structure-decl.js',
+              'src/hashtable.js',
+              'src/footer.js'],
         dest: 'lib/structure.js'
+      },
+
+      inline: {
+        src: ['src/structure-decl.js',
+              'src/hashtable.js'],
+        dest: 'lib/inline-hashtable.js'
       }
     },
 
