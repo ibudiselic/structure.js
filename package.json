@@ -10,7 +10,7 @@
     "test": "jasmine-node test",
     "build": "grunt"
   },
-  "main": "/lib/structure.js",
+  "main": "./lib/structure.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/ibudiselic/structure.js.git"
